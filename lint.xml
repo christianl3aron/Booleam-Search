@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="DefaultLocale" severity="ignore">
+        <ignore path="src\com\manyasoft\booleamsearch\AdminSQLiteOpenHelper.java" />
+    </issue>
+    <issue id="HardcodedText">
+        <ignore path="res\layout\dialog_registerpro.xml" />
+        <ignore path="res\layout\fragment_main.xml" />
+        <ignore path="res\layout\item_gridview.xml" />
+    </issue>
+</lint>

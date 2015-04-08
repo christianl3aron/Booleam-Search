@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BooleamSearch</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+     <string-array name="ca_layouts_array">
+        <item>Buscar Publicacion</item>
+        <item>Historial</item>
+        <item>Mis Datos</item>
+        <item>Agregar Cliente</item>
+        <item>Lista de Clientes</item>
+    </string-array>
+    
+     <string-array name="array_spnoperadores">
+        <item>y</item>
+        <item>o</item>
+        <item>No</item>
+    </string-array>
+    
+     <string-array name="array_spntag">
+        <item>Titulo</item>
+        <item>Resumen</item>
+        <item>Autor</item>
+    </string-array>
+
+</resources>

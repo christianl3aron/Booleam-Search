@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="200dp"
+    android:layout_height="280dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:orientation="vertical"
+    android:background="@drawable/rounded_edittext_dies" >
+
+    <ImageView
+        android:id="@+id/img_publicacion_item"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/extension"
+        android:contentDescription="Imagen de Publicacion" />
+
+    
+    <LinearLayout
+        android:layout_width="180dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="5dp"
+        android:orientation="vertical" >
+		    <TextView
+		        android:id="@+id/txt_titulo"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:textColor="#222"
+		        android:maxLines="4"
+		        android:typeface="serif"
+		        android:text="1.  Extensión profesional naranja x 50 ms" />
+		
+		    <TextView
+		        android:id="@+id/txt_autor"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_marginTop="5dp"
+		        android:textColor="#aaa"
+		        android:textSize="14sp"
+		        android:textStyle="italic|bold"
+		        android:text="Sodimac" />
+    
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:orientation="horizontal"
+        android:gravity="bottom" >
+
+		        <RatingBar
+		            android:id="@+id/bar_rating_item"
+		            style="?android:attr/ratingBarStyleSmall"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_alignParentBottom="true"
+		            android:layout_alignParentLeft="true"
+		            android:rating="2" />
+
+		        <TextView
+		            android:id="@+id/txt_precio_item"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_alignParentBottom="true"
+		            android:layout_alignParentRight="true"
+		            android:text="FREE"
+		            android:textColor="#99f966"
+		            android:textSize="20sp"
+		            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+</LinearLayout>
